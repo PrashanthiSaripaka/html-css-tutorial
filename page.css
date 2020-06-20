@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+}
+#img{
+    height: 80px;
+    width: 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    align-self: flex-end;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(87, 82, 82);
+    color: white;
+    font-size: 16px;
+    justify-content: space-evenly;
+}
+.navbar div{
+    padding: 5px;
+}
+.navbar div:hover{
+    background-color: black;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+}
+.dropdown-content a{
+    display: block;
+    background-color: rgb(87, 82, 82);
+ 
+}
+.dropdown:hover .dropdown-content{
+display: block;
+}
+.side-bar{
+    width: 300px;
+    display: inline-block;
+    height: 100vh;
+    background-color: lightgrey;
+    overflow: auto;
+}
+li:active{
+    background-color: green;
+    color: white;
+}
+li{
+    list-style: none;
+    padding-left: 1rem;
+}
+.content{
+    display: inline-block;
+    position: absolute;
+}
+.footer{
+    background-color: black;
+    width: auto;
+    height: 30px;
+    color: white;
+    margin-top: 0px;
+}
